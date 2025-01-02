@@ -149,11 +149,11 @@ web_server and App_Server on the Terminal
 Try and ping both together
 Run code for web_server 
 Sudo su -
-Ping 10-0-4-192
+Ping 10.0.4.192
 
 Run code App_Server
 Sudo su -
-Ping 172-16-4-93
+Ping 172.16.4.93
 
 YOU NOTICE IS NOT PEERING
 
@@ -222,6 +222,7 @@ Click on Accept Request. ( status is “Active”)
 
 
 NEXT
+GO TO ohio 
 Go to Route Table
 Click on DB_Server-rtb-public
 Click on Routes
@@ -241,7 +242,7 @@ Save changes
 TRY PING DB_Server to App_server
 
 NEXT 
-Create a Peering Connection between  Web-DB servers
+Create a Peering Connection between  Web-DB servers by going to N.Virgina USA Region
 Click on  create peering connection
 VPC ID (Requester) SELECT (Web_Sever_Vpc)
 Select another VPC to Peer with
@@ -262,7 +263,7 @@ EDIT THE NAME OF THE PEERING CONNECTIONS
  
 
 NEXT
-Go to Route Table
+Go to Route Table For N.Virgina USA
 Click on Web_Server-rtb-public
 Click on Routes
 Click on Edith Route
@@ -271,13 +272,13 @@ Save changes
 
 
 NEXT
-Go to Route Table
+Go to Route Table for Ohio Region
 Click on DB_Server-rtb-public
 Click on Routes
 Click on Edith Route
 Click on Add Route 172.16.0.0/16   target peering connection  (Web_server)
 Save changes
-
+Pair web-server to DB-Server
 
 
 CONNECT THE THREE SERVER 
