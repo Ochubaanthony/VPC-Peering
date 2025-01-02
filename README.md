@@ -4,15 +4,15 @@ VPC Peering
 VIRTUAL PRIVATE CLOUD
 
 
-Created this on Frankfurt region N.Virginia REGION
+Created this on region N.Virginia REGION
 
 VPC Peering
 CASE Scenario 
 
-WEB-SERVER		DB-SERVER			APP-SERVER
-172.16.0.0/16		192.168.0.0/16		10.0.0.0/16
-SUBNET 1			SUBNET 2			SUBNET 3 				
-USA-EAST-1A		USA-EAST-1B		USA-EAST-1C
+WEB-SERVER		    DB-SERVER			      APP-SERVER
+172.16.0.0/16		 192.168.0.0/16		  10.0.0.0/16
+SUBNET 1			      SUBNET 2			      SUBNET 3 				
+USA-EAST-1A		    USA-EAST-1B		    USA-EAST-1C
 
 STEP 1
 FOR App_Server
